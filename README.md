@@ -6,7 +6,7 @@ Requirements:
   3) Install django in your virtualenv using - # ''' sudo pip install django  '''
                                                 # ''' django-admin  --version '''   Check
                                                 
-  4)Download the zip file in your folder and extract the files.
+  4) Download the zip file in your folder and extract the files.
   5) Run the server  = # ''' python manage.py runserver
   6) Check if there is any other package required for the working and install it by - # ''' pip install package_name  
   7) Once the server starts running without any errors, go to the browser and enter the 
