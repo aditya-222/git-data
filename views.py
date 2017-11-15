@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 from django.http import HttpResponse
 from django.shortcuts import render
 import json
-import requests
 import urllib2
 import re
 from collections import Counter
@@ -49,7 +48,6 @@ def allrepos(request):
 						for line in requirement_response:
 							package = " ".join(re.findall("^[a-zA-Z]+[0-9]?", line))
 							if package != '':
-								print package
 								package_list.append(package)
 				if count == 20:
 					break
