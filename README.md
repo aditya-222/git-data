@@ -10,4 +10,4 @@ and will search the top 20 repositories queried on django and sorted by maximum 
 
 provides the output in json format with the repository data and the packages count sorted by the maximum number of occurences.
 
-
+Might sometimes give the Error " Http error 403 forbidden" due to the API access limit within a certain time period. 
